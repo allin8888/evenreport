@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="卖方策略研究">
+<meta name="description" content="全球市场晚间快报：A股+港股收盘 & 美股盘前（2026-07-18 周末版，覆盖7/17全球收盘+下周关注）">
+<title>全球市场晚间快报 | 2026-07-18</title>
+<style>
+  :root{
+    --bg:#f4f5f7; --card:#ffffff; --ink:#1a1d24; --sub:#5b6472;
+    --line:#e4e7ec; --head:#0f2a4a; --headtxt:#ffffff;
+    --up:#c62828; --down:#1b8a3f; --flat:#5b6472;
+    --accent:#0f56b3; --warn:#b8860b; --band:#f0f4fa;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    line-height:1.55;font-size:15px;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1080px;margin:0 auto;padding:22px 16px 60px}
+
+  header.masthead{background:linear-gradient(135deg,#0f2a4a,#123b6b);color:#fff;
+    border-radius:14px;padding:22px 24px;box-shadow:0 6px 22px rgba(15,42,74,.18)}
+  header.masthead h1{font-size:22px;letter-spacing:.3px;font-weight:800;line-height:1.35}
+  header.masthead .tagline{margin-top:8px;font-size:13.5px;color:#cfe0f5;font-weight:500}
+  .badges{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+  .badge{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);
+    color:#eaf2fd;font-size:12px;padding:4px 10px;border-radius:20px;font-weight:600}
+
+  .note{background:#fff8e6;border:1px solid #f0dca0;color:#7a5c00;
+    border-radius:10px;padding:11px 14px;margin:16px 0 4px;font-size:13px}
+
+  section{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:18px 20px;margin-top:18px;box-shadow:0 2px 10px rgba(20,30,50,.04)}
+  h2{font-size:17.5px;font-weight:800;color:var(--head);display:flex;align-items:center;gap:9px;
+    padding-bottom:11px;border-bottom:2px solid var(--head);margin-bottom:14px}
+  h2 .n{background:var(--head);color:#fff;width:26px;height:26px;border-radius:8px;
+    display:inline-flex;align-items:center;justify-content:center;font-size:14px;flex:0 0 auto}
+  h3{font-size:14px;font-weight:700;color:var(--accent);margin:16px 0 8px;
+    display:flex;align-items:center;gap:7px}
+  h3::before{content:"";width:4px;height:14px;background:var(--accent);border-radius:2px}
+
+  .tblwrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:8px}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:520px}
+  th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+  thead th{background:var(--band);color:var(--head);font-weight:700;font-size:12.5px;
+    white-space:nowrap;border-bottom:2px solid #d5deeb}
+  tbody tr:hover{background:#f8fafc}
+  td.num{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600}
+  .up{color:var(--up);font-weight:700}
+  .down{color:var(--down);font-weight:700}
+  .flat{color:var(--flat);font-weight:700}
+  .name{font-weight:700;white-space:nowrap}
+  .tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:5px;font-weight:700;margin-right:4px}
+  .t-a{background:#fde8e8;color:#c62828}
+  .t-h{background:#e8f0fd;color:#0f56b3}
+  .t-u{background:#eef7ee;color:#1b8a3f}
+  .t-x{background:#f0ecf9;color:#6a3db3}
+
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:6px}
+  .hot h3{color:var(--up)} .hot h3::before{background:var(--up)}
+  .avoid h3{color:var(--warn)} .avoid h3::before{background:var(--warn)}
+  table.mini th{background:#fbeeee} table.mini.av th{background:#fbf3e0}
+
+  footer{margin-top:26px;padding:16px 4px;color:var(--sub);font-size:12px;line-height:1.7;
+    border-top:1px solid var(--line)}
+  .disc{background:#f7f8fa;border:1px dashed var(--line);border-radius:10px;padding:12px 14px;
+    font-size:12px;color:var(--sub);margin-top:10px}
+  strong.k{color:var(--ink)}
+
+  @media(max-width:760px){
+    .split{grid-template-columns:1fr}
+    header.masthead h1{font-size:18px}
+    .wrap{padding:14px 10px 44px}
+    section{padding:15px 13px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <h1>2026年7月18日 星期六｜全球市场晚间快报（A股+港股收盘 &amp; 美股盘前）</h1>
+    <div class="tagline">用于盘后复盘与美股盘前交易决策快速浏览 · 数据均为北京时间</div>
+    <div class="badges">
+      <span class="badge">周末版</span>
+      <span class="badge">覆盖 7/17（周五）全球收盘</span>
+      <span class="badge">含下周盘前关注</span>
+      <span class="badge">涨红跌绿</span>
+    </div>
+  </header>
+
+  <div class="note">
+    <strong>周末版说明：</strong>今日（7/18 周六）A股、港股、美股均休市。本期整合上一交易日 <strong>7月17日（周五）</strong> 全球市场收盘全景（A股/港股收盘 + 美股<strong>全日收盘已定格</strong>），并将「美股盘前」调整为<strong>下周（7/20 起）盘前关注要点</strong>。全周主线为<strong>全球半导体/AI硬件去杠杆</strong>叠加<strong>美伊冲突升级推升油价</strong>。
+  </div>
+
+  <!-- ============ 1. A股 ============ -->
+  <section>
+    <h2><span class="n">1</span>A股收盘综述（7/17 周五）</h2>
+
+    <h3>指数层面</h3>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>指数</th><th>收盘</th><th>当日涨跌</th><th>本周累计</th><th>成交/资金</th></tr></thead>
+      <tbody>
+        <tr><td class="name">上证指数</td><td class="num">3764.15</td><td class="num down">-3.05%</td><td class="num down">-5.81%</td><td>两市合计成交逾 <strong class="k">2.6万亿</strong>，放量</td></tr>
+        <tr><td class="name">深证成指</td><td class="num">13706.88</td><td class="num down">-5.40%</td><td class="num down">-8.90%</td><td>约 <strong class="k">5000只</strong>个股下跌，普跌格局</td></tr>
+        <tr><td class="name">创业板指</td><td class="num">3428.63</td><td class="num down">-7.15%</td><td class="num down">-10.78%</td><td>盘中一度跌逾7.4%，尾盘未修复</td></tr>
+        <tr><td class="name">北向资金</td><td class="num flat">—</td><td class="flat">口径停披露</td><td class="flat">—</td><td>实时净买入自2024/8停披露，仅作方向性参考</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3>行业与风格</h3>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>方向</th><th>表现</th><th>代表/驱动</th></tr></thead>
+      <tbody>
+        <tr><td class="name">领跌</td><td class="down">半导体·商业航天·机器人·元器件·医药·有色</td><td>全球AI硬件踩踏共振，高位成长杀估值；长光华芯、兆易创新跌停</td></tr>
+        <tr><td class="name">逆势上涨</td><td class="up">电力·银行·石油·煤炭·食品饮料</td><td>迎峰度夏电网负荷创峰值；低位防御/红利承接资金</td></tr>
+        <tr><td class="name">风格</td><td class="down">成长&gt;价值下杀</td><td>资金从高位成长向低位防御切换，非系统性下行、存量博弈</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3>代表性龙头</h3>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>个股</th><th>涨跌</th><th>简要催化</th></tr></thead>
+      <tbody>
+        <tr><td class="name">长光华芯</td><td class="num down">-20.00%</td><td>半导体/光芯片跌停，赛道拥挤度松动、获利了结</td></tr>
+        <tr><td class="name">兆易创新</td><td class="num down">跌停</td><td>存储链集体重挫，海外费半进熊市传导</td></tr>
+        <tr><td class="name">桂冠电力</td><td class="num up">+10.05%</td><td>电力涨停，高温用电负荷屡创新高</td></tr>
+        <tr><td class="name">深南电A</td><td class="num up">+10.05%</td><td>电力/燃气逆势涨停，防御资金抱团</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="split">
+      <div class="hot">
+        <h3>A股最可能延续活跃的3个方向</h3>
+        <div class="tblwrap">
+        <table class="mini">
+          <thead><tr><th>方向</th><th>逻辑</th><th>潜在影响</th></tr></thead>
+          <tbody>
+            <tr><td class="name">电力/公用</td><td>迎峰度夏负荷连创新高，业绩确定+红利属性</td><td>防御资金蓄水池，指数下跌中的相对收益</td></tr>
+            <tr><td class="name">银行/红利低波</td><td>杀跌中资金回流低估值稳定现金流</td><td>护盘与情绪企稳的关键权重</td></tr>
+            <tr><td class="name">石油/煤炭</td><td>美伊冲突推油价，霍尔木兹通航风险</td><td>周期资源受益地缘，与成长负相关</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+      <div class="avoid">
+        <h3>A股最该回避的2个方向</h3>
+        <div class="tblwrap">
+        <table class="mini av">
+          <thead><tr><th>方向</th><th>风险点 / 触发条件</th></tr></thead>
+          <tbody>
+            <tr><td class="name">半导体/存储/光模块</td><td>费半已进技术性熊市，海外映射未止；若台积电后续订单/资本开支叙事再遭质疑，杀跌延续</td></tr>
+            <tr><td class="name">AI应用/机器人/商业航天</td><td>估值高、交易拥挤，Kimi K3等叙事切换加大波动；量能萎缩即补跌</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. 港股 ============ -->
+  <section>
+    <h2><span class="n">2</span>港股收盘综述（7/17 周五）</h2>
+
+    <h3>指数层面</h3>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>指数</th><th>收盘</th><th>当日涨跌</th><th>成交/资金</th></tr></thead>
+      <tbody>
+        <tr><td class="name">恒生指数</td><td class="num">24562.24</td><td class="num down">-1.78%</td><td>全日成交 <strong class="k">3473亿港元</strong>，放量</td></tr>
+        <tr><td class="name">恒生科技</td><td class="num">4623.17</td><td class="num down">-4.37%</td><td>午后一度跌逾5%，科网+半导体拖累</td></tr>
+        <tr><td class="name">国企指数</td><td class="num">8136.73</td><td class="num down">-2.18%</td><td>—</td></tr>
+        <tr><td class="name">南向资金</td><td class="num down">净卖出 14.57亿</td><td class="down">港股通</td><td>沪通 +19.10亿 / 深通 -33.67亿；盈富净买入29.75亿、智谱净买入11.30亿；美团净卖出9.66亿、中芯净卖出20.14亿</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3>行业与主题</h3>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>方向</th><th>表现</th><th>驱动因素</th></tr></thead>
+      <tbody>
+        <tr><td class="name">领跌</td><td class="down">存储·大模型·半导体·机器人·光通信·生物医药·黄金</td><td>南方2X做多海力士再跌超20%；市场流传"唱空光模块"传闻；美银警示黄金回调</td></tr>
+        <tr><td class="name">逆势上涨</td><td class="up">电力·航运港口·水务·内银·石油·煤炭</td><td>远航港口涨近12%；高温用电+红利防御承接</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3>代表性异动个股</h3>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>个股</th><th>涨跌</th><th>催化</th></tr></thead>
+      <tbody>
+        <tr><td class="name">智谱</td><td class="num down">-28.49%</td><td>AI大模型"双雄"重挫，赛道拥挤度松动（南向逆势净买入11.3亿）</td></tr>
+        <tr><td class="name">中芯国际</td><td class="num down">-9.97%</td><td>半导体领跌，全球芯片去杠杆映射</td></tr>
+        <tr><td class="name">腾讯控股</td><td class="num down">-4.63%</td><td>权重科网普跌，情绪主导</td></tr>
+        <tr><td class="name">康方生物</td><td class="num down">-13%+</td><td>生物医药回调，前期涨幅兑现风险</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="split">
+      <div class="hot">
+        <h3>港股最可能延续活跃的3个方向</h3>
+        <div class="tblwrap">
+        <table class="mini">
+          <thead><tr><th>方向</th><th>逻辑</th><th>潜在影响</th></tr></thead>
+          <tbody>
+            <tr><td class="name">高股息/内银/公用</td><td>下半年全球资金结构性重塑，回流传统科网+防御</td><td>恒指22500筑底后的护盘力量</td></tr>
+            <tr><td class="name">航运/港口</td><td>地缘扰动+运价，远航港口领涨</td><td>与油价/贸易链联动的独立行情</td></tr>
+            <tr><td class="name">石油/能源</td><td>美伊冲突升级、油价单日涨超4%</td><td>受益地缘，对冲科网下杀</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+      <div class="avoid">
+        <h3>港股最该回避的2个方向</h3>
+        <div class="tblwrap">
+        <table class="mini av">
+          <thead><tr><th>方向</th><th>风险点 / 触发条件</th></tr></thead>
+          <tbody>
+            <tr><td class="name">大模型/半导体/存储</td><td>智谱-28%、中芯-10%，海外费半进熊市；若Kimi K3叙事继续冲击高端芯片需求预期，补跌未止</td></tr>
+            <tr><td class="name">光通信/黄金</td><td>光模块"唱空"传闻发酵；美银警示金价或复刻历史大熊市，回调空间未尽</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. 美股 ============ -->
+  <section>
+    <h2><span class="n">3</span>美股 7/17 全日收盘（已定格）&amp; 下周盘前关注</h2>
+    <div class="note" style="margin-top:0">周六美股休市，7/17（周五）为全日收盘已定值；下方期指/VIX 为周五收盘参考，非实时盘前。下一交易日为 <strong>7/20（周一）</strong>。</div>
+
+    <h3>指数 / 期指 / VIX</h3>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>指数</th><th>收盘</th><th>当日涨跌</th><th>本周累计</th><th>备注</th></tr></thead>
+      <tbody>
+        <tr><td class="name">道琼斯</td><td class="num">52146.42</td><td class="num down">-0.77%</td><td class="num down">-0.93%</td><td>蓝筹相对抗跌</td></tr>
+        <tr><td class="name">标普500</td><td class="num">7457.69</td><td class="num down">-1.01%</td><td class="num down">-1.55%</td><td>11大板块10跌1涨</td></tr>
+        <tr><td class="name">纳斯达克</td><td class="num">25520.24</td><td class="num down">-1.40%</td><td class="num down">-2.90%</td><td>科技权重领跌</td></tr>
+        <tr><td class="name">费城半导体(SOX)</td><td class="num">11673.89</td><td class="num down">-1.63%</td><td class="num down">-9.97%</td><td>较6/22高点回撤&gt;20%，<strong class="k">正式进入熊市</strong>；本周为2025/4来最大周跌</td></tr>
+        <tr><td class="name">VIX 恐慌指数</td><td class="num flat">约18–19</td><td class="flat">高位</td><td class="flat">—</td><td>方向性：避险情绪未消，地缘+财报季待验</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3>板块与主题</h3>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>方向</th><th>表现</th><th>逻辑</th></tr></thead>
+      <tbody>
+        <tr><td class="name">能源（唯一红盘）</td><td class="up">+1.16%</td><td>美伊冲突升级、霍尔木兹"完全关闭"，WTI+4.48%/布伦特+4.59%，油价一个月来首破80</td></tr>
+        <tr><td class="name">通信服务 / 非必需消费</td><td class="down">-2.38% / -1.58%</td><td>奈飞暴跌拖累通信服务；大型科技普跌</td></tr>
+        <tr><td class="name">半导体</td><td class="down">全线下挫</td><td>Kimi K3（全球最大开源模型）冲击美AI/高端芯片需求预期；获利了结叠加权重升高放大跌幅</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3>重要个股与事件</h3>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>个股</th><th>涨跌</th><th>板块</th><th>关键信息</th></tr></thead>
+      <tbody>
+        <tr><td class="name">奈飞 NFLX</td><td class="num down">-7.26%</td><td>流媒体</td><td>创两年新低；Q3营收增速指引谨慎，缩减观众数据披露范围</td></tr>
+        <tr><td class="name">苹果 AAPL</td><td class="num up">+0.14%</td><td>大型科技</td><td>逆市收涨，市值约4.9万亿美元，盘中重回全球市值第一（超英伟达）</td></tr>
+        <tr><td class="name">英伟达 NVDA</td><td class="num down">-2.21%</td><td>半导体</td><td>七巨头普跌；应用材料-5%、台积电近-3%、阿斯麦-2%</td></tr>
+        <tr><td class="name">SpaceX SPCX</td><td class="num down">-5.43%</td><td>商业航天</td><td>星舰第13次试飞推迟；市值较峰值蒸发超1万亿美元</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p style="font-size:12.5px;color:var(--sub);margin-top:6px">中概：纳斯达克金龙指数 -1.8%（本周 +2.6%）；哔哩哔哩/百度跌约5%、理想/小鹏跌超3%、阿里跌超2%、网易逆势涨近1%。存储盘中反弹尾盘回落：SK海力士 +1.13%、希捷 +5.66%、闪迪 -3.99%。</p>
+  </section>
+
+  <!-- ============ 4. 宏观日程 ============ -->
+  <section>
+    <h2><span class="n">4</span>下周重要宏观数据与事件（北京时间）</h2>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>时间</th><th>地区</th><th>事件</th><th>关注点</th><th>潜在市场影响</th></tr></thead>
+      <tbody>
+        <tr><td class="num">7/20 (一) 09:00起</td><td>中国</td><td>7月LPR报价</td><td>1年期/5年期是否变动</td><td>利率预期 → 银行/地产/成长股估值</td></tr>
+        <tr><td class="num">7/20 (一) 22:00</td><td>美国</td><td>6月领先指标</td><td>经济动能边际</td><td>周期资产、增长预期</td></tr>
+        <tr><td class="num">7/21 (二) 盘中</td><td>英国</td><td>就业数据</td><td>薪资/失业率</td><td>英镑、欧洲利率预期</td></tr>
+        <tr><td class="num">7/22 (三) 盘后</td><td>美国</td><td><strong class="k">特斯拉 Q2 财报</strong></td><td>交付、毛利率、FSD/储能指引</td><td>成长股估值、AI/新能源情绪风向标</td></tr>
+        <tr><td class="num">7/23 (四) 20:15</td><td>欧元区</td><td><strong class="k">欧央行 ECB 利率决议</strong></td><td>是否降息、措辞</td><td>利率预期 → 欧股、欧元、全球估值锚</td></tr>
+        <tr><td class="num">7/23 (四) 20:30</td><td>美国</td><td>初请失业金人数</td><td>就业韧性</td><td>美债收益率、降息路径</td></tr>
+        <tr><td class="num">7/24 (五) 07:30</td><td>日本</td><td>6月CPI</td><td>通胀黏性</td><td>日元、日央行加息预期</td></tr>
+        <tr><td class="num">7/24 (五) 16:00/21:45</td><td>欧/美</td><td>标普 PMI（制造/服务）</td><td>景气扩张/收缩</td><td>周期商品、成长股风险偏好</td></tr>
+        <tr><td class="num">7/24 (五) 22:00</td><td>美国</td><td>6月新屋销售</td><td>地产需求与利率敏感</td><td>利率预期、地产链</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p style="font-size:12px;color:var(--sub);margin-top:8px">更远关注：7/29 FOMC 利率决议、7/28 微软/Alphabet、7/29 Meta、7/30 苹果/亚马逊/美股Q2 GDP初值+PCE。</p>
+  </section>
+
+  <!-- ============ 5. 跨市场主线 ============ -->
+  <section>
+    <h2><span class="n">5</span>跨市场当周/下周交易主线</h2>
+    <div class="tblwrap">
+    <table>
+      <thead><tr><th>主线</th><th>覆盖市场</th><th>核心逻辑</th><th>风险提示</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="name">全球半导体/AI硬件去杠杆</td>
+          <td><span class="tag t-a">A股</span><span class="tag t-h">港股</span><span class="tag t-u">美股</span></td>
+          <td>费半进技术性熊市（回撤&gt;20%），存储/光模块/大模型全球共振杀估值；Kimi K3 冲击美AI叙事。</td>
+          <td>下周财报（特斯拉）与后续台积电订单指引，是"暂时调整"还是"长期回调"的分水岭。</td>
+        </tr>
+        <tr>
+          <td class="name">美伊冲突 → 油价/避险</td>
+          <td><span class="tag t-a">A股</span><span class="tag t-h">港股</span><span class="tag t-u">美股</span></td>
+          <td>美军连续第7晚打击、霍尔木兹"完全关闭"，WTI/布伦特单日涨超4%；能源为美股唯一红盘。</td>
+          <td>若停火/外交转圜，油价与能源股快速回吐；地缘头条驱动、波动剧烈。</td>
+        </tr>
+        <tr>
+          <td class="name">防御切换：红利/电力/内银</td>
+          <td><span class="tag t-a">A股</span><span class="tag t-h">港股</span></td>
+          <td>存量资金从高位成长撤向低位防御；高温用电负荷创峰值支撑电力，红利低波抗跌。</td>
+          <td>属"跌出来的相对收益"，若成长企稳资金回流，防御补涨空间受限。</td>
+        </tr>
+        <tr>
+          <td class="name">欧央行 ECB 决议（7/23）</td>
+          <td><span class="tag t-u">美股</span><span class="tag t-h">港股</span></td>
+          <td>全球估值锚之一，措辞影响利率预期与风险偏好，牵动欧元及跨境资金。</td>
+          <td>鹰派超预期将压制全球成长股估值；口径含糊则加剧波动。</td>
+        </tr>
+        <tr>
+          <td class="name">中概科网情绪</td>
+          <td><span class="tag t-h">港股</span><span class="tag t-u">美股</span></td>
+          <td>金龙指数本周仍累涨2.6%，DeepSeek二轮融资、AI合作组织落沪等事件催化。</td>
+          <td>与港股科网/美股AI高度联动，海外芯片杀跌与美伊地缘均可致反向。</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <footer>
+    <div class="disc">
+      <strong>免责与数据说明：</strong>本报告为盘后复盘与盘前速览用途，不构成任何买卖推荐，仅提示方向、逻辑与风险。所有点位、涨跌幅、资金流基于公开可得数据（截至 7/17 收盘），北向资金实时净买入自2024/8停止披露，仅作方向性描述；VIX、下周盘前项为方向性参考。数据以官方交易所与主流财经媒体为准，据此操作风险自担。
+    </div>
+    <div style="margin-top:10px">全球市场晚间快报 · 2026年7月18日（周六·周末版）· 生成时间 北京时间 23:05</div>
+  </footer>
+
+</div>
+</body>
+</html>
